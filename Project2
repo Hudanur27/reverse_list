@@ -1,0 +1,8 @@
+inp=[[1, 2], [3, 4], [5, 6, 7]]
+new=inp[::-1]
+last=[]
+
+for i in new:
+    i=i[::-1]
+    last.append(i)
+print(last)    
